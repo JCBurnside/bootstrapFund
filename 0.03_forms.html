@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="resources/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<!-- <script src="https://ajax.googleapis.com/ajx/libs/jquery/1.12.4/jquery.min.js"></script> -->
+		<!-- <script src="resources/lib/bootstrap-3.3.7-dist/js/bootsrap.min.js"></script> -->
+	</head>
+	<body>
+		<div class="container">
+			<h1>Sample Sing-up Form</h1>
+			<div class="form-group">
+				<div class="row">
+					<label for="username" class="col-2 col-form-label">Username</label>
+					<div class="col-10">
+						<input class="form-control" type="text" placeholder="username" id="username"/>
+					</div>
+					<p class="help-block">username must be valid.</p>
+				</div>
+				<div class="row">
+					<label for="password" class="col-2 col-form-label">Password</label>
+					<div class="col-10">
+						<input type="password" id="password" class="form-control" placeholder="password">
+					</div>
+					<p class="help-block">password must be atleast 8 charactors</p>
+				</div>
+				<div class="row">
+					<label for="confirm" class="col-2 col-form-label">Confirm Password</label>
+					<div class="col-10">
+						<input type="password" class="form-control" placeholder="password" id="confirm">
+					</div>
+					<p class="help-block">Passwords must be the same.</p>
+				</div>
+				<div class="row">
+					<label for="area" class="col-2 col-form-label">Uneditable</label>
+					<div class="col-10">
+						<textarea class="form-control" disabled rows="3" placeholder="Sample Text"></textarea>
+					</div>
+					<p class="help-block">This is uneditable</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
